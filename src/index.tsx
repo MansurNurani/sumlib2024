@@ -1,14 +1,6 @@
-import * as React from 'react'
-import styles from './styles.module.css'
+import { ExampleComponent1 } from './ExampleComponent1'
+import { ExampleComponent2 } from './ExampleComponent2'
 
-interface Props {
-  text: string
-}
 
-export const ExampleComponent1 = ({ text }: Props) => {
-  return <div className={styles.test}>Example Component111: {text}</div>
-}
 
-export const ExampleComponent2 = ({ text }: Props) => {
-  return <div className={styles.test}>Example Component222: {text}</div>
-}
+export { ExampleComponent1, ExampleComponent2 };

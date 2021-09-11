@@ -5,3 +5,6 @@ interface Props {
   text: string
 }
 
+export const ExampleComponent1 = ({ text }: Props) => {
+  return <div className={styles.test}>Example Component111: {text}</div>
+}
